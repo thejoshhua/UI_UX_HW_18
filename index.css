@@ -1,0 +1,53 @@
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float:right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 15px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .hero-section{
+      position:relative;
+      justify-content: right;
+  }
+
+  .block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(221, 221, 221);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 25px;
+  }
+
+  .skills{
+      float: right;
+  }
