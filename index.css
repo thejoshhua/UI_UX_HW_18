@@ -51,3 +51,12 @@
   .skills{
       float: right;
   }
+
+  @media screen {
+      #categoryGrid{
+          margin: 0 5px;
+          display: grid;
+          grid-template-rows: 300px 300px 300px;
+          grid-template-columns: 1fr 1fr 1fr;
+      }
+  }
